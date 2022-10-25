@@ -39,9 +39,12 @@ h2 {
   display: flex;
   justify-content: space-evenly;
 }
-.exercice4 ul li {
+.exercice4 ul li:nth-child(even) {
+  flex: 3;
+  margin: 0 20px;
+}
+.exercice4 ul li:nth-child(odd) {
   flex: 1;
-  margin: 0 10px;
 }
 /* EXERCICE 5 */
 .exercice5 {
